@@ -23,4 +23,4 @@ def test2():
         time.sleep(0.5)
 
 
-test2()
+test1()
