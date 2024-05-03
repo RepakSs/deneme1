@@ -1,3 +1,5 @@
+import time
 import serial
 port = serial.Serial("/dev/ttyUSB0", 115200)
-port.write(b'1')
+time.sleep(3)
+port.write(b"1")
