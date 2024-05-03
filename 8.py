@@ -1,3 +1,3 @@
 import serial
 port = serial.Serial("/dev/ttyUSB0", 115200)
-port.write(b"8")
+port.write(b'8')
